@@ -1,15 +1,15 @@
 'use client';
 import React, { useState, useEffect } from 'react';
 import styles from './testimonial.module.css';
-import { Newsreader } from 'next/font/google';
+// import { Newsreader } from 'next/font/google';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import Image from 'next/image';
 import Link from 'next/link';
-const reader = Newsreader({
-	subsets: ['latin'],
-	weight: '300',
-	display: 'swap',
-});
+// const reader = Newsreader({
+// 	subsets: ['latin'],
+// 	weight: '300',
+// 	display: 'swap',
+// });
 const Testimonial = () => {
 	const slides = [
 		{
@@ -57,7 +57,7 @@ const Testimonial = () => {
 	};
 	return (
 		<div className={styles.page}>
-			<h2 className={`${reader.className} text-[20px]`}>Previously Sold</h2>
+			<h2 className={` text-[20px]`}>Previously Sold</h2>
 			<section className={styles.slider_container}>
 				{people.map((p, index) => {
 					const { id, image, title, productLink } = p;

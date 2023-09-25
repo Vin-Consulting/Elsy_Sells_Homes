@@ -1,17 +1,17 @@
 'use client';
 import { useState } from 'react';
 import styles from './footer.module.css';
-import { Newsreader } from 'next/font/google';
+// import { Newsreader } from 'next/font/google';
 import Image from 'next/image';
 import { FaInstagram, FaYoutube, FaTwitter, FaFacebook } from 'react-icons/fa';
 import Form from './Form';
 import { isValidEmail } from '@/utils/validation';
 
-const reader = Newsreader({
-	subsets: ['latin'],
-	weight: ['300'],
-	display: 'swap',
-});
+// const reader = Newsreader({
+// 	subsets: ['latin'],
+// 	weight: ['300'],
+// 	display: 'swap',
+// });
 
 const Footer = () => {
 	const [email, setEmail] = useState<string>('');
@@ -34,7 +34,7 @@ const Footer = () => {
 				<div className='flex flex-col justify-center items-center text-center w-full max-w-sm'>
 					<div className={`${styles.content} `}>
 						<h2 className='uppercase text-white'>Elcy & Co. Realty Gazette</h2>
-						<p className={`${reader.className} text-white`}>
+						<p className={` text-white`}>
 							Subscribe to the Gazette and be the first to receive the latest
 							news on listings
 						</p>

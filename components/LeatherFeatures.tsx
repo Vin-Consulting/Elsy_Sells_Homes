@@ -2,20 +2,18 @@ import React from 'react';
 import styles from './leatherfeature.module.css';
 import Underlined from './Underlined';
 import Image from 'next/image';
-import { Newsreader } from 'next/font/google';
+// import { Newsreader } from 'next/font/google';
 
-const newspaper = Newsreader({
-	subsets: ['latin'],
-	weight: ['300'],
-	display: 'swap',
-});
+// const newspaper = Newsreader({
+// 	subsets: ['latin'],
+// 	weight: ['300'],
+// 	display: 'swap',
+// });
 
 const LeatherFeatures = () => {
 	return (
 		<div className={styles.page}>
-			<h3 className={`${newspaper.className} ${styles.head}`}>
-				LE CHIC DU CHIEN
-			</h3>
+			<h3 className={` ${styles.head}`}>LE CHIC DU CHIEN</h3>
 			<div className={styles.image_container}>
 				<div className={styles.image}>
 					<Image
@@ -24,12 +22,12 @@ const LeatherFeatures = () => {
 						height={400}
 						alt='dog'
 					/>
-					<div className={styles.data}>
+					{/* <div className={styles.data}>
 						<Underlined
 							text={'GOYARDOFFICIAL'}
 							color='black'
 						/>
-					</div>
+					</div> */}
 				</div>
 				<div className={styles.image}>
 					<Image
@@ -38,12 +36,12 @@ const LeatherFeatures = () => {
 						height={450}
 						alt='dog'
 					/>
-					<div className={styles.data}>
+					{/* <div className={styles.data}>
 						<Underlined
 							text={'Discover'}
 							color='black'
 						/>
-					</div>
+					</div> */}
 				</div>
 			</div>
 			<Image

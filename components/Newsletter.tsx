@@ -1,17 +1,17 @@
 'use client';
 import React, { useState } from 'react';
 import Image from 'next/image';
-import { Newsreader } from 'next/font/google';
+// import { Newsreader } from 'next/font/google';
 
 import Form from './Form';
 import { ContactForm } from '@/interfaces/form';
 import styles from './newsletter.module.css';
 
-const reader = Newsreader({
-	subsets: ['latin'],
-	weight: ['300'],
-	display: 'swap',
-});
+// const reader = Newsreader({
+// 	subsets: ['latin'],
+// 	weight: ['300'],
+// 	display: 'swap',
+// });
 
 export default function Newsletter() {
 	const [phoneNumber, setPhoneNumber] = useState<string>('');

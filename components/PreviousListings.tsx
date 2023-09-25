@@ -1,14 +1,14 @@
 'use client';
 import React from 'react';
 import styles from './featured.module.css';
-import { Newsreader } from 'next/font/google';
+// import { Newsreader } from 'next/font/google';
 import Product from './Product';
 
-const newspaper = Newsreader({
-	subsets: ['latin'],
-	weight: ['300'],
-	display: 'swap',
-});
+// const newspaper = Newsreader({
+// 	subsets: ['latin'],
+// 	weight: ['300'],
+// 	display: 'swap',
+// });
 const data = [
 	{
 		id: 1,
@@ -38,9 +38,7 @@ const data = [
 const PreviousListings = ({ products = data }) => {
 	return (
 		<div className={styles.featured_container}>
-			<h3 className={`${newspaper.className} ${styles.featured_title}`}>
-				Previously Sold
-			</h3>
+			<h3 className={` ${styles.featured_title}`}>Previously Sold</h3>
 			<div className={`${styles.product_container} mt-10`}>
 				{products.map((d) => {
 					return (
