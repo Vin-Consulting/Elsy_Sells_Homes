@@ -4,8 +4,6 @@ const nextConfig = {
 	images: {
 		domains: ['photos.zillowstatic.com'],
 	},
-	output: 'export',
-	basePath: '/Elsy_Sells_Homes',
 };
 
 module.exports = nextConfig;
