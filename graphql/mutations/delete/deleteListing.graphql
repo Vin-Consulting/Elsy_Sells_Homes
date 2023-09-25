@@ -1,0 +1,3 @@
+mutation DeleteListing($deleteListingId: Float!) {
+  deleteListing(id: $deleteListingId)
+}

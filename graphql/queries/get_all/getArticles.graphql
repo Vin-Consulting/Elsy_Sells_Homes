@@ -1,0 +1,32 @@
+query GetArticles {
+  getArticles {
+    id
+    title
+    body_1
+    body_2
+    body_3
+    body_4
+    body_5
+    likes
+    creatorId
+    creator {
+      id
+      first_name
+      last_name
+      username
+      email
+      realtor_url
+      zillow_url
+      redfin_url
+      facebook_url
+      youtube_url
+      twitter_url
+      instagram_url
+      createdAt
+      updatedAt
+    }
+    imageUrls
+    createdAt
+    updatedAt
+  }
+}

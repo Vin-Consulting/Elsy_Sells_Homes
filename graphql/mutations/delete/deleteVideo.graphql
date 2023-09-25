@@ -1,0 +1,3 @@
+mutation DeleteVideo($deleteVideoId: Float!) {
+  deleteVideo(id: $deleteVideoId)
+}

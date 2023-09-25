@@ -1,0 +1,28 @@
+query GetVideos {
+  getVideos {
+    id
+    title
+    video_link
+    description
+    creatorId
+    creator {
+      id
+      first_name
+      last_name
+      username
+      email
+      realtor_url
+      zillow_url
+      redfin_url
+      facebook_url
+      youtube_url
+      twitter_url
+      instagram_url
+      createdAt
+      updatedAt
+    }
+    imageUrls
+    createdAt
+    updatedAt
+  }
+}
