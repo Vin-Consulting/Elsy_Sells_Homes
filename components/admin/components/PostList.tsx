@@ -44,7 +44,7 @@ export function ItemList() {
 
 	return (
 		<div className='grid justify-items-center xxs:grid-cols-3'>
-			{!data && fetching ? (
+			{/* {!data && fetching ? (
 				<div> loading... </div>
 			) : (
 				data!.posts.posts.map((p) => <IndividualListingSmallTest p={p} />)
@@ -64,7 +64,7 @@ export function ItemList() {
 						Load More{' '}
 					</button>
 				</div>
-			) : null}
+			) : null} */}
 		</div>
 	);
 }

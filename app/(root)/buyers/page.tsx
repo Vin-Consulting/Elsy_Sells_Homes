@@ -9,10 +9,10 @@ export default function Buyers() {
 				</div>
 				<div>
 					<p>
-						Welcome to our home buyer's page, where your dreams of homeownership
-						take center stage. We understand that a home is not just a place,
-						but a reflection of your aspirations and a haven for cherished
-						memories.
+						Welcome to our home buyer&apos;s page, where your dreams of
+						homeownership take center stage. We understand that a home is not
+						just a place, but a reflection of your aspirations and a haven for
+						cherished memories.
 					</p>
 				</div>
 
@@ -20,8 +20,8 @@ export default function Buyers() {
 					<p>
 						Our dedicated team is here to guide you every step of the way. From
 						understanding your unique preferences and needs to exploring a
-						curated selection of properties, we're committed to transforming
-						your vision into reality.
+						curated selection of properties, we&apos;re committed to
+						transforming your vision into reality.
 					</p>
 				</div>
 
@@ -36,10 +36,10 @@ export default function Buyers() {
 
 				<div>
 					<p>
-						Let's embark on this journey together – where your comfort,
+						Let&apos;s embark on this journey together – where your comfort,
 						happiness, and investment are our top priorities. Your dream home
-						awaits, and we're here to turn that dream into a heartfelt welcome
-						every time you step through the door.
+						awaits, and we&apos;re here to turn that dream into a heartfelt
+						welcome every time you step through the door.
 					</p>
 				</div>
 
