@@ -7,7 +7,7 @@ const Video = ({
 	title_l1 = 'Unlocking Doors',
 	title_l2 = 'To',
 	title_l3 = 'Your Dreams',
-	video = 'https://www.goyard.com/media/video/homepage/2023/08/desktop/Bloc-video-1-luggage-of-fame-desktop.mp4',
+	video = '/esh_1.mp4',
 	pl1 = 'REALTOR',
 	pl2 = 'SINCE 2002',
 	isLoading = false,
@@ -38,7 +38,7 @@ const Video = ({
 					/>
 				)}
 			</div>
-			{!isLoading && (
+			{/* {!isLoading && (
 				<Image
 					alt='dog'
 					className={styles.img}
@@ -46,7 +46,7 @@ const Video = ({
 					width={150}
 					height={150}
 				/>
-			)}
+			)} */}
 		</div>
 	);
 };

@@ -19,9 +19,7 @@ export default function Home() {
 				pl2={'at a time'}
 				isLoading={true}
 				text='discover'
-				video={
-					'https://www.goyard.com/media/video/homepage/2023/08/desktop/Bloc-video-3-guide-de-porte-desktop.mp4'
-				}
+				video={'/esh_2.mp4'}
 				urlLink='https://www.zillow.com/profile/Elcy-Pereira/'
 			/>
 			<Testimonial />
