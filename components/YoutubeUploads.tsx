@@ -15,9 +15,9 @@ export default function YoutubeUploads() {
 				YouTube Uploads
 			</h2>
 			<section className='flex flex-col lg:flex-row gap-10 lg:gap-32'>
-				<YoutubeEmbed videoId='AKxPIWTQYys' />
-				<YoutubeEmbed videoId='isP3eik9iDk' />
-				<YoutubeEmbed videoId='W608u6sBFpo' />
+				<YoutubeEmbed videoId='Ful_vimWx-0' />
+				<YoutubeEmbed videoId='8jLh4-E8C0A' />
+				<YoutubeEmbed videoId='Jq_6RKHJIIA' />
 			</section>
 		</div>
 	);

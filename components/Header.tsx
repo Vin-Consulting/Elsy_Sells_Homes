@@ -45,7 +45,7 @@ export default function Header() {
 		<>
 			<div className={styles.navbar}>
 				<div
-					className='flex items-center justify-between lg:justify-center p-[0.75rem] uppercase bg-[rgba(24, 63, 38, 1)] text-white'
+					className='flex items-center justify-between lg:justify-center p-[1rem] uppercase bg-[rgba(24, 63, 38, 1)] text-white'
 					style={{ background: color }}>
 					<div className={styles.title}>
 						<Link href='/'>
@@ -60,9 +60,7 @@ export default function Header() {
 
 					<div className='block lg:hidden'>
 						<Menu>
-							<MenuButton
-								as={Button}
-								className='hover:bg-none'>
+							<MenuButton>
 								<FaBars
 									className={styles.bars}
 									onClick={toggleBar}

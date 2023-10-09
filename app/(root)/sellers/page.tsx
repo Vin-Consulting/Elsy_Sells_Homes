@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Sellers() {
 	return (
-		<div className='flex flex-col flex-1 justify-center items-center min-h-screen mt-28'>
-			<div className='flex flex-col flex-1 justify-center items-center w-full max-w-lg gap-5'>
+		<div className='flex flex-col flex-1 justify-center items-center min-h-screen m-auto w-full md:max-w-3xl px-5 pb-10 mt-28'>
+			<div className='flex flex-col flex-1 justify-center items-center w-full gap-5 text-sm md:text-base'>
 				<div>
 					<p>Seize the Opportunity to Maximize Your Home&apos;s Value!</p>
 				</div>

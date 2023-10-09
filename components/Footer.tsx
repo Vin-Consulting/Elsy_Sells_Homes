@@ -98,7 +98,7 @@ const Footer = () => {
 				</div>
 			</div>
 			<div className={styles.copyright}>
-				<p>
+				<p className='text-sm md:text-base'>
 					Copyright © {new Date().getFullYear()} Elcy & Co. Realty. All rights
 					reserved
 				</p>

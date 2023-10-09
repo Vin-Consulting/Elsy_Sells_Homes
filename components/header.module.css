@@ -103,7 +103,7 @@
 }
 .navbar{
     position: fixed;
-    z-index: 10;
+    z-index: 20;
     top: 0;
     left: 0;
     right: 0;
@@ -113,6 +113,7 @@
     cursor: pointer;
     /* transition: all 0.3s ease-in-out; */
     color: white;
+    background-color: transparent;
     display: none;
     visibility: hidden;
     opacity: 0;

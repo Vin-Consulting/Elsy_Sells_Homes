@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import Image from 'next/image';
+// import Image from 'next/image';
 // import { Newsreader } from 'next/font/google';
 
 import Form from './Form';
@@ -49,16 +49,16 @@ export default function Newsletter() {
 		}
 	};
 	return (
-		<div className={styles.page}>
-			<div className={styles.form}>
-				<div className={styles.content}>
-					<h2>Get in touch with us</h2>
-					<Form
-						handleSubmit={handleSubmit}
-						phoneNumber={phoneNumber}
-						handlePhoneNumberChange={handlePhoneNumberChange}
-					/>
-				</div>
+		<div className='flex flex-col justify-center items-center py-[5rem]'>
+			<div className='uppercase font-light tracking-[3px] text-[#183f26] md:text-3xl mb-5'>
+				<h2>Get in touch with us</h2>
+			</div>
+			<div className='w-full max-w-xs md:max-w-lg'>
+				<Form
+					handleSubmit={handleSubmit}
+					phoneNumber={phoneNumber}
+					handlePhoneNumberChange={handlePhoneNumberChange}
+				/>
 			</div>
 		</div>
 	);

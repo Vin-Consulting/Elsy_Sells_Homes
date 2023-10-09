@@ -66,14 +66,25 @@
    
 }
 @media (max-width:990px){
- 
+    .page {
+        padding-top: 3.5rem;
+    }
     .container{
         grid-template-columns: 1fr;
         height: auto;
     }
-    .map{
-        display: none;
+
+    .map {
+        height: 70vh;
+        margin: 5px 20px;
     }
+
+    .data {
+        border: none;
+    }
+    /* .map{
+        display: none;
+    } */
    
 }
 .page::-webkit-scrollbar{
